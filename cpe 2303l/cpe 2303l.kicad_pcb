@@ -919,5 +919,26 @@
 		(net 3)
 		(uuid "f2b0a0c0-2542-42a1-b098-48f367e2236b")
 	)
+	(zone
+		(net 2)
+		(net_name "Net-(BT1-+)")
+		(layer "F.Cu")
+		(uuid "9f482ba7-f750-4240-a44a-a292ae26a320")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0.5)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 100 72.5) (xy 128.5 72.5) (xy 128.5 100.5) (xy 100 100.5)
+			)
+		)
+	)
 	(embedded_fonts no)
 )
