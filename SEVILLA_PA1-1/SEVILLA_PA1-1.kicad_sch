@@ -3455,6 +3455,10 @@
 		(uuid "fe1ca6bd-b8a1-4e4d-a3ea-a8b0889ef8a0")
 	)
 	(no_connect
+		(at 193.04 148.59)
+		(uuid "037eab0e-41d4-48fe-9d30-c8525444321e")
+	)
+	(no_connect
 		(at 139.7 152.4)
 		(uuid "165744fa-5a35-46f7-8549-199d16087d71")
 	)
@@ -3469,6 +3473,18 @@
 	(no_connect
 		(at 139.7 140.97)
 		(uuid "4438dbae-bf28-4e60-a28d-2af7f15ea269")
+	)
+	(no_connect
+		(at 177.8 146.05)
+		(uuid "4566a051-3060-4781-9aa6-bbd62ceba2d1")
+	)
+	(no_connect
+		(at 177.8 151.13)
+		(uuid "481b7c41-4152-4bfa-89b5-aa2cc66bdd06")
+	)
+	(no_connect
+		(at 177.8 140.97)
+		(uuid "4e68222c-9819-4b59-91ad-899fd62f2160")
 	)
 	(no_connect
 		(at 104.14 154.94)
@@ -3509,6 +3525,14 @@
 	(no_connect
 		(at 104.14 109.22)
 		(uuid "b4e101b5-bab8-4cfd-a8b9-e4f6ac4979d5")
+	)
+	(no_connect
+		(at 177.8 135.89)
+		(uuid "baf85335-7a82-42b9-b973-d046f96a5058")
+	)
+	(no_connect
+		(at 193.04 138.43)
+		(uuid "c0371651-2348-4e83-8900-2ab0343e65f3")
 	)
 	(no_connect
 		(at 104.14 128.27)
@@ -4062,7 +4086,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 73.66 105.41 0)
 			(effects
 				(font
@@ -4372,7 +4396,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 111.76 111.76 0)
 			(effects
 				(font
@@ -4400,52 +4424,156 @@
 			)
 		)
 		(pin "5"
-			(uuid "d0ce6bee-57d7-4dd4-8c66-07f00ec59e02")
+			(uuid "d0ce6bee-57d7-4dd4-8c66-07f00ec59e03")
 		)
 		(pin "10"
-			(uuid "c9d04c51-f77f-4e81-a05b-f8bba0b37353")
+			(uuid "c9d04c51-f77f-4e81-a05b-f8bba0b37354")
 		)
 		(pin "8"
-			(uuid "18078196-d8cd-4084-b4c0-bffb38c2dcd4")
+			(uuid "18078196-d8cd-4084-b4c0-bffb38c2dcd5")
 		)
 		(pin "14"
 			(uuid "cde84dc0-797b-446e-bc9e-7ed9bb4458d3")
 		)
 		(pin "6"
-			(uuid "a43a033f-19f1-4d6a-824d-c13ef45424a5")
+			(uuid "a43a033f-19f1-4d6a-824d-c13ef45424a6")
 		)
 		(pin "9"
-			(uuid "3b4af8f8-2226-4417-b182-07da1dd4f7b9")
+			(uuid "3b4af8f8-2226-4417-b182-07da1dd4f7ba")
 		)
 		(pin "11"
-			(uuid "f9e2b878-b7ae-41c7-b002-cf478129f460")
+			(uuid "f9e2b878-b7ae-41c7-b002-cf478129f461")
 		)
 		(pin "7"
 			(uuid "35011aee-bf41-4425-b0d7-698e0d0f958f")
 		)
 		(pin "2"
-			(uuid "3b71d6a2-5a01-4d81-9ef3-727c76b58c89")
+			(uuid "3b71d6a2-5a01-4d81-9ef3-727c76b58c8a")
 		)
 		(pin "12"
-			(uuid "0029b74f-a899-4b46-addf-36a4220a59ae")
+			(uuid "0029b74f-a899-4b46-addf-36a4220a59af")
 		)
 		(pin "3"
-			(uuid "31dcd956-38d0-4a40-adac-608a27b786c0")
+			(uuid "31dcd956-38d0-4a40-adac-608a27b786c1")
 		)
 		(pin "1"
-			(uuid "23e2ec3e-9ccf-4336-aa87-9508eeca6eac")
+			(uuid "23e2ec3e-9ccf-4336-aa87-9508eeca6ead")
 		)
 		(pin "4"
-			(uuid "7deb9710-8b65-49d9-915e-a90bf1e0f1ea")
+			(uuid "7deb9710-8b65-49d9-915e-a90bf1e0f1eb")
 		)
 		(pin "13"
-			(uuid "79126855-135a-403b-bc92-9956e5546f82")
+			(uuid "79126855-135a-403b-bc92-9956e5546f83")
 		)
 		(instances
 			(project "SEVILLA_PA1-1"
 				(path "/48ec1998-e184-4a88-a4a6-c12968c00ee1"
 					(reference "U3")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS00")
+		(at 185.42 148.59 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48ca814d-98a1-4f79-9f57-6c101ac20034")
+		(property "Reference" "U1"
+			(at 185.4117 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS00"
+			(at 185.4117 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 185.42 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ls00"
+			(at 185.42 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "quad 2-input NAND gate"
+			(at 185.42 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "20e17eb9-36d1-475f-885c-c48072b9d0bb")
+		)
+		(pin "8"
+			(uuid "77285bc5-531e-43ce-9037-e6b61a63bc70")
+		)
+		(pin "4"
+			(uuid "3d590e99-5fb9-4bf1-8c6f-b05c9f642317")
+		)
+		(pin "6"
+			(uuid "d2866fde-2d61-4bf7-8f54-045b0963412e")
+		)
+		(pin "2"
+			(uuid "19632503-027e-4d60-aace-c04e83702205")
+		)
+		(pin "1"
+			(uuid "5938b4a8-14ef-41cd-97eb-5131ff73fad1")
+		)
+		(pin "5"
+			(uuid "ac130da0-841f-4820-aa68-b81242383be3")
+		)
+		(pin "9"
+			(uuid "fec0f045-2f1a-4f84-a754-c56e4626ac42")
+		)
+		(pin "10"
+			(uuid "97a4eefd-defd-4d0c-8f13-83c5930e3444")
+		)
+		(pin "12"
+			(uuid "3326ed9c-dfbe-4426-bad8-83995bdd3b62")
+		)
+		(pin "13"
+			(uuid "e97fd7e9-ff15-43f4-8801-4de18b4a96ff")
+		)
+		(pin "11"
+			(uuid "a3623d0c-f2e3-4003-83e3-47219fcd2837")
+		)
+		(pin "7"
+			(uuid "729f04a2-7a25-4ed5-9730-37c1c4a8676f")
+		)
+		(pin "14"
+			(uuid "e7211bdc-7f66-4c78-9f8e-6a78ea3330e7")
+		)
+		(instances
+			(project "SEVILLA_PA1-1"
+				(path "/48ec1998-e184-4a88-a4a6-c12968c00ee1"
+					(reference "U1")
+					(unit 4)
 				)
 			)
 		)
@@ -4476,7 +4604,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 132.08 152.4 0)
 			(effects
 				(font
@@ -4580,7 +4708,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 171.45 93.98 0)
 			(effects
 				(font
@@ -4754,7 +4882,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 132.08 140.97 0)
 			(effects
 				(font
@@ -4782,46 +4910,46 @@
 			)
 		)
 		(pin "4"
-			(uuid "534a809a-9490-4a1f-a3fc-a80cd0760b17")
+			(uuid "534a809a-9490-4a1f-a3fc-a80cd0760b18")
 		)
 		(pin "2"
 			(uuid "b57be9d0-7790-4f38-a1cc-ed5495d4ff7d")
 		)
 		(pin "3"
-			(uuid "6d39b54d-84ef-4767-8fb3-ee32fa44219f")
+			(uuid "6d39b54d-84ef-4767-8fb3-ee32fa4421a0")
 		)
 		(pin "9"
-			(uuid "6e7ef847-f9b9-44d1-befc-5f2de6dae26e")
+			(uuid "6e7ef847-f9b9-44d1-befc-5f2de6dae26f")
 		)
 		(pin "8"
-			(uuid "e187804a-be1e-4e99-b48b-5ce6ef4e3a82")
+			(uuid "e187804a-be1e-4e99-b48b-5ce6ef4e3a83")
 		)
 		(pin "14"
-			(uuid "743250ba-9b86-4cda-a601-0b25ff7a5bbf")
+			(uuid "743250ba-9b86-4cda-a601-0b25ff7a5bc0")
 		)
 		(pin "1"
 			(uuid "16639f31-b9cc-41af-8482-63c90908e6a5")
 		)
 		(pin "11"
-			(uuid "db438f2a-e942-4078-8286-ef9e969bbd63")
+			(uuid "db438f2a-e942-4078-8286-ef9e969bbd64")
 		)
 		(pin "5"
-			(uuid "8f023c01-c39d-46c2-9b1e-89a9c451a80a")
+			(uuid "8f023c01-c39d-46c2-9b1e-89a9c451a80b")
 		)
 		(pin "10"
-			(uuid "b58d1d59-5e8a-4731-8bf4-09f40fa428d1")
+			(uuid "b58d1d59-5e8a-4731-8bf4-09f40fa428d2")
 		)
 		(pin "13"
-			(uuid "1bfa02b6-8e18-4927-bcd7-b65bbf3bf1d1")
+			(uuid "1bfa02b6-8e18-4927-bcd7-b65bbf3bf1d2")
 		)
 		(pin "6"
-			(uuid "d613714b-8187-4573-ae79-40613862c02f")
+			(uuid "d613714b-8187-4573-ae79-40613862c030")
 		)
 		(pin "12"
-			(uuid "b307f07f-97a7-4e74-8cb2-881ace0bf0a1")
+			(uuid "b307f07f-97a7-4e74-8cb2-881ace0bf0a2")
 		)
 		(pin "7"
-			(uuid "3f05d4b6-4b6c-40e8-b8fa-63ef2b764e0b")
+			(uuid "3f05d4b6-4b6c-40e8-b8fa-63ef2b764e0c")
 		)
 		(instances
 			(project "SEVILLA_PA1-1"
@@ -4858,7 +4986,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 149.86 91.44 0)
 			(effects
 				(font
@@ -4886,46 +5014,46 @@
 			)
 		)
 		(pin "4"
-			(uuid "534a809a-9490-4a1f-a3fc-a80cd0760b17")
+			(uuid "534a809a-9490-4a1f-a3fc-a80cd0760b19")
 		)
 		(pin "2"
 			(uuid "a83d61e8-278b-4597-a9a1-f1b6c6eef61d")
 		)
 		(pin "3"
-			(uuid "6d39b54d-84ef-4767-8fb3-ee32fa44219f")
+			(uuid "6d39b54d-84ef-4767-8fb3-ee32fa4421a1")
 		)
 		(pin "9"
-			(uuid "6e7ef847-f9b9-44d1-befc-5f2de6dae26e")
+			(uuid "6e7ef847-f9b9-44d1-befc-5f2de6dae270")
 		)
 		(pin "8"
-			(uuid "e187804a-be1e-4e99-b48b-5ce6ef4e3a82")
+			(uuid "e187804a-be1e-4e99-b48b-5ce6ef4e3a84")
 		)
 		(pin "14"
-			(uuid "743250ba-9b86-4cda-a601-0b25ff7a5bbf")
+			(uuid "743250ba-9b86-4cda-a601-0b25ff7a5bc1")
 		)
 		(pin "1"
 			(uuid "b38f514e-d1b7-4da1-991c-e5db182370df")
 		)
 		(pin "11"
-			(uuid "db438f2a-e942-4078-8286-ef9e969bbd63")
+			(uuid "db438f2a-e942-4078-8286-ef9e969bbd65")
 		)
 		(pin "5"
-			(uuid "8f023c01-c39d-46c2-9b1e-89a9c451a80a")
+			(uuid "8f023c01-c39d-46c2-9b1e-89a9c451a80c")
 		)
 		(pin "10"
-			(uuid "b58d1d59-5e8a-4731-8bf4-09f40fa428d1")
+			(uuid "b58d1d59-5e8a-4731-8bf4-09f40fa428d3")
 		)
 		(pin "13"
-			(uuid "1bfa02b6-8e18-4927-bcd7-b65bbf3bf1d1")
+			(uuid "1bfa02b6-8e18-4927-bcd7-b65bbf3bf1d3")
 		)
 		(pin "6"
-			(uuid "d613714b-8187-4573-ae79-40613862c02f")
+			(uuid "d613714b-8187-4573-ae79-40613862c031")
 		)
 		(pin "12"
-			(uuid "b307f07f-97a7-4e74-8cb2-881ace0bf0a1")
+			(uuid "b307f07f-97a7-4e74-8cb2-881ace0bf0a3")
 		)
 		(pin "7"
-			(uuid "3f05d4b6-4b6c-40e8-b8fa-63ef2b764e0b")
+			(uuid "3f05d4b6-4b6c-40e8-b8fa-63ef2b764e0d")
 		)
 		(instances
 			(project "SEVILLA_PA1-1"
@@ -4962,7 +5090,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 190.5 101.6 0)
 			(effects
 				(font
@@ -5136,7 +5264,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 90.17 105.41 0)
 			(effects
 				(font
@@ -5164,10 +5292,10 @@
 			)
 		)
 		(pin "3"
-			(uuid "20e17eb9-36d1-475f-885c-c48072b9d0bb")
+			(uuid "20e17eb9-36d1-475f-885c-c48072b9d0bd")
 		)
 		(pin "8"
-			(uuid "77285bc5-531e-43ce-9037-e6b61a63bc70")
+			(uuid "77285bc5-531e-43ce-9037-e6b61a63bc72")
 		)
 		(pin "4"
 			(uuid "b2f1f5fa-3adc-432e-836c-f069c62081f1")
@@ -5176,34 +5304,34 @@
 			(uuid "3b937092-d4f6-4d62-88f2-555a853831a3")
 		)
 		(pin "2"
-			(uuid "19632503-027e-4d60-aace-c04e83702205")
+			(uuid "19632503-027e-4d60-aace-c04e83702207")
 		)
 		(pin "1"
-			(uuid "5938b4a8-14ef-41cd-97eb-5131ff73fad1")
+			(uuid "5938b4a8-14ef-41cd-97eb-5131ff73fad3")
 		)
 		(pin "5"
 			(uuid "0c03f124-15d8-49e3-87cd-b43e0b184b41")
 		)
 		(pin "9"
-			(uuid "fec0f045-2f1a-4f84-a754-c56e4626ac42")
+			(uuid "fec0f045-2f1a-4f84-a754-c56e4626ac44")
 		)
 		(pin "10"
-			(uuid "97a4eefd-defd-4d0c-8f13-83c5930e3444")
+			(uuid "97a4eefd-defd-4d0c-8f13-83c5930e3446")
 		)
 		(pin "12"
-			(uuid "3326ed9c-dfbe-4426-bad8-83995bdd3b62")
+			(uuid "3326ed9c-dfbe-4426-bad8-83995bdd3b64")
 		)
 		(pin "13"
-			(uuid "e97fd7e9-ff15-43f4-8801-4de18b4a96ff")
+			(uuid "e97fd7e9-ff15-43f4-8801-4de18b4a9701")
 		)
 		(pin "11"
-			(uuid "a3623d0c-f2e3-4003-83e3-47219fcd2837")
+			(uuid "a3623d0c-f2e3-4003-83e3-47219fcd2839")
 		)
 		(pin "7"
-			(uuid "729f04a2-7a25-4ed5-9730-37c1c4a8676f")
+			(uuid "729f04a2-7a25-4ed5-9730-37c1c4a86771")
 		)
 		(pin "14"
-			(uuid "e7211bdc-7f66-4c78-9f8e-6a78ea3330e7")
+			(uuid "e7211bdc-7f66-4c78-9f8e-6a78ea3330e9")
 		)
 		(instances
 			(project "SEVILLA_PA1-1"
@@ -5239,6 +5367,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -5306,7 +5435,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 156.21 142.24 0)
 			(effects
 				(font
@@ -5334,46 +5463,46 @@
 			)
 		)
 		(pin "4"
-			(uuid "534a809a-9490-4a1f-a3fc-a80cd0760b17")
+			(uuid "534a809a-9490-4a1f-a3fc-a80cd0760b1a")
 		)
 		(pin "2"
 			(uuid "4d10dd85-b57a-433e-841f-d68fc9969d46")
 		)
 		(pin "3"
-			(uuid "6d39b54d-84ef-4767-8fb3-ee32fa44219f")
+			(uuid "6d39b54d-84ef-4767-8fb3-ee32fa4421a2")
 		)
 		(pin "9"
-			(uuid "6e7ef847-f9b9-44d1-befc-5f2de6dae26e")
+			(uuid "6e7ef847-f9b9-44d1-befc-5f2de6dae271")
 		)
 		(pin "8"
-			(uuid "e187804a-be1e-4e99-b48b-5ce6ef4e3a82")
+			(uuid "e187804a-be1e-4e99-b48b-5ce6ef4e3a85")
 		)
 		(pin "14"
-			(uuid "743250ba-9b86-4cda-a601-0b25ff7a5bbf")
+			(uuid "743250ba-9b86-4cda-a601-0b25ff7a5bc2")
 		)
 		(pin "1"
 			(uuid "826ea741-b982-4445-874c-2dca710358e5")
 		)
 		(pin "11"
-			(uuid "db438f2a-e942-4078-8286-ef9e969bbd63")
+			(uuid "db438f2a-e942-4078-8286-ef9e969bbd66")
 		)
 		(pin "5"
-			(uuid "8f023c01-c39d-46c2-9b1e-89a9c451a80a")
+			(uuid "8f023c01-c39d-46c2-9b1e-89a9c451a80d")
 		)
 		(pin "10"
-			(uuid "b58d1d59-5e8a-4731-8bf4-09f40fa428d1")
+			(uuid "b58d1d59-5e8a-4731-8bf4-09f40fa428d4")
 		)
 		(pin "13"
-			(uuid "1bfa02b6-8e18-4927-bcd7-b65bbf3bf1d1")
+			(uuid "1bfa02b6-8e18-4927-bcd7-b65bbf3bf1d4")
 		)
 		(pin "6"
-			(uuid "d613714b-8187-4573-ae79-40613862c02f")
+			(uuid "d613714b-8187-4573-ae79-40613862c032")
 		)
 		(pin "12"
-			(uuid "b307f07f-97a7-4e74-8cb2-881ace0bf0a1")
+			(uuid "b307f07f-97a7-4e74-8cb2-881ace0bf0a4")
 		)
 		(pin "7"
-			(uuid "3f05d4b6-4b6c-40e8-b8fa-63ef2b764e0b")
+			(uuid "3f05d4b6-4b6c-40e8-b8fa-63ef2b764e0e")
 		)
 		(instances
 			(project "SEVILLA_PA1-1"
@@ -5410,7 +5539,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 111.76 125.73 0)
 			(effects
 				(font
@@ -5438,46 +5567,46 @@
 			)
 		)
 		(pin "5"
-			(uuid "d0ce6bee-57d7-4dd4-8c66-07f00ec59e02")
+			(uuid "d0ce6bee-57d7-4dd4-8c66-07f00ec59e04")
 		)
 		(pin "10"
-			(uuid "c9d04c51-f77f-4e81-a05b-f8bba0b37353")
+			(uuid "c9d04c51-f77f-4e81-a05b-f8bba0b37355")
 		)
 		(pin "8"
-			(uuid "18078196-d8cd-4084-b4c0-bffb38c2dcd4")
+			(uuid "18078196-d8cd-4084-b4c0-bffb38c2dcd6")
 		)
 		(pin "14"
 			(uuid "6bd2c8dc-eae1-4741-b429-1ab4bf2384ad")
 		)
 		(pin "6"
-			(uuid "a43a033f-19f1-4d6a-824d-c13ef45424a5")
+			(uuid "a43a033f-19f1-4d6a-824d-c13ef45424a7")
 		)
 		(pin "9"
-			(uuid "3b4af8f8-2226-4417-b182-07da1dd4f7b9")
+			(uuid "3b4af8f8-2226-4417-b182-07da1dd4f7bb")
 		)
 		(pin "11"
-			(uuid "f9e2b878-b7ae-41c7-b002-cf478129f460")
+			(uuid "f9e2b878-b7ae-41c7-b002-cf478129f462")
 		)
 		(pin "7"
 			(uuid "27b45b52-dd4f-452d-b072-8a1ac3f72dc1")
 		)
 		(pin "2"
-			(uuid "3b71d6a2-5a01-4d81-9ef3-727c76b58c89")
+			(uuid "3b71d6a2-5a01-4d81-9ef3-727c76b58c8b")
 		)
 		(pin "12"
-			(uuid "0029b74f-a899-4b46-addf-36a4220a59ae")
+			(uuid "0029b74f-a899-4b46-addf-36a4220a59b0")
 		)
 		(pin "3"
-			(uuid "31dcd956-38d0-4a40-adac-608a27b786c0")
+			(uuid "31dcd956-38d0-4a40-adac-608a27b786c2")
 		)
 		(pin "1"
-			(uuid "23e2ec3e-9ccf-4336-aa87-9508eeca6eac")
+			(uuid "23e2ec3e-9ccf-4336-aa87-9508eeca6eae")
 		)
 		(pin "4"
-			(uuid "7deb9710-8b65-49d9-915e-a90bf1e0f1ea")
+			(uuid "7deb9710-8b65-49d9-915e-a90bf1e0f1ec")
 		)
 		(pin "13"
-			(uuid "79126855-135a-403b-bc92-9956e5546f82")
+			(uuid "79126855-135a-403b-bc92-9956e5546f84")
 		)
 		(instances
 			(project "SEVILLA_PA1-1"
@@ -5761,6 +5890,110 @@
 		)
 	)
 	(symbol
+		(lib_id "74xx:74LS00")
+		(at 185.42 138.43 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "adef8e01-41eb-4e1c-b025-2f38ad706f22")
+		(property "Reference" "U1"
+			(at 185.4117 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS00"
+			(at 185.4117 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 185.42 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ls00"
+			(at 185.42 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "quad 2-input NAND gate"
+			(at 185.42 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "20e17eb9-36d1-475f-885c-c48072b9d0bb")
+		)
+		(pin "8"
+			(uuid "77285bc5-531e-43ce-9037-e6b61a63bc70")
+		)
+		(pin "4"
+			(uuid "05b052e8-31e8-4e69-a63a-d9d32563c10c")
+		)
+		(pin "6"
+			(uuid "c044360a-ea67-4324-abe1-ab890634282f")
+		)
+		(pin "2"
+			(uuid "19632503-027e-4d60-aace-c04e83702205")
+		)
+		(pin "1"
+			(uuid "5938b4a8-14ef-41cd-97eb-5131ff73fad1")
+		)
+		(pin "5"
+			(uuid "cda71417-e502-4c89-aec7-140f73e70488")
+		)
+		(pin "9"
+			(uuid "fec0f045-2f1a-4f84-a754-c56e4626ac42")
+		)
+		(pin "10"
+			(uuid "97a4eefd-defd-4d0c-8f13-83c5930e3444")
+		)
+		(pin "12"
+			(uuid "3326ed9c-dfbe-4426-bad8-83995bdd3b62")
+		)
+		(pin "13"
+			(uuid "e97fd7e9-ff15-43f4-8801-4de18b4a96ff")
+		)
+		(pin "11"
+			(uuid "a3623d0c-f2e3-4003-83e3-47219fcd2837")
+		)
+		(pin "7"
+			(uuid "729f04a2-7a25-4ed5-9730-37c1c4a8676f")
+		)
+		(pin "14"
+			(uuid "e7211bdc-7f66-4c78-9f8e-6a78ea3330e7")
+		)
+		(instances
+			(project "SEVILLA_PA1-1"
+				(path "/48ec1998-e184-4a88-a4a6-c12968c00ee1"
+					(reference "U1")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74LS04")
 		(at 55.88 104.14 0)
 		(unit 7)
@@ -5786,7 +6019,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 55.88 104.14 0)
 			(effects
 				(font
@@ -5814,46 +6047,46 @@
 			)
 		)
 		(pin "4"
-			(uuid "534a809a-9490-4a1f-a3fc-a80cd0760b17")
+			(uuid "534a809a-9490-4a1f-a3fc-a80cd0760b1b")
 		)
 		(pin "2"
 			(uuid "0e251011-adb7-42a3-be6b-25c787f74f93")
 		)
 		(pin "3"
-			(uuid "6d39b54d-84ef-4767-8fb3-ee32fa44219f")
+			(uuid "6d39b54d-84ef-4767-8fb3-ee32fa4421a3")
 		)
 		(pin "9"
-			(uuid "6e7ef847-f9b9-44d1-befc-5f2de6dae26e")
+			(uuid "6e7ef847-f9b9-44d1-befc-5f2de6dae272")
 		)
 		(pin "8"
-			(uuid "e187804a-be1e-4e99-b48b-5ce6ef4e3a82")
+			(uuid "e187804a-be1e-4e99-b48b-5ce6ef4e3a86")
 		)
 		(pin "14"
-			(uuid "743250ba-9b86-4cda-a601-0b25ff7a5bbf")
+			(uuid "743250ba-9b86-4cda-a601-0b25ff7a5bc3")
 		)
 		(pin "1"
 			(uuid "72549be3-c924-47b0-b210-06c1bb96b8cc")
 		)
 		(pin "11"
-			(uuid "db438f2a-e942-4078-8286-ef9e969bbd63")
+			(uuid "db438f2a-e942-4078-8286-ef9e969bbd67")
 		)
 		(pin "5"
-			(uuid "8f023c01-c39d-46c2-9b1e-89a9c451a80a")
+			(uuid "8f023c01-c39d-46c2-9b1e-89a9c451a80e")
 		)
 		(pin "10"
-			(uuid "b58d1d59-5e8a-4731-8bf4-09f40fa428d1")
+			(uuid "b58d1d59-5e8a-4731-8bf4-09f40fa428d5")
 		)
 		(pin "13"
-			(uuid "1bfa02b6-8e18-4927-bcd7-b65bbf3bf1d1")
+			(uuid "1bfa02b6-8e18-4927-bcd7-b65bbf3bf1d5")
 		)
 		(pin "6"
-			(uuid "d613714b-8187-4573-ae79-40613862c02f")
+			(uuid "d613714b-8187-4573-ae79-40613862c033")
 		)
 		(pin "12"
-			(uuid "b307f07f-97a7-4e74-8cb2-881ace0bf0a1")
+			(uuid "b307f07f-97a7-4e74-8cb2-881ace0bf0a5")
 		)
 		(pin "7"
-			(uuid "3f05d4b6-4b6c-40e8-b8fa-63ef2b764e0b")
+			(uuid "3f05d4b6-4b6c-40e8-b8fa-63ef2b764e0f")
 		)
 		(instances
 			(project "SEVILLA_PA1-1"
@@ -6037,7 +6270,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx05_Slide_Omron_A6S-510x_W8.9mm_P2.54mm"
+		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx05_Slide_9.78x14.88mm_W7.62mm_P2.54mm"
 			(at 133.35 80.01 0)
 			(effects
 				(font
@@ -6195,7 +6428,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 153.67 104.14 0)
 			(effects
 				(font
@@ -6299,7 +6532,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 111.76 154.94 0)
 			(effects
 				(font
@@ -6327,46 +6560,46 @@
 			)
 		)
 		(pin "4"
-			(uuid "534a809a-9490-4a1f-a3fc-a80cd0760b17")
+			(uuid "534a809a-9490-4a1f-a3fc-a80cd0760b1c")
 		)
 		(pin "2"
 			(uuid "78610911-fe19-461d-8981-e2a00cfe022f")
 		)
 		(pin "3"
-			(uuid "6d39b54d-84ef-4767-8fb3-ee32fa44219f")
+			(uuid "6d39b54d-84ef-4767-8fb3-ee32fa4421a4")
 		)
 		(pin "9"
-			(uuid "6e7ef847-f9b9-44d1-befc-5f2de6dae26e")
+			(uuid "6e7ef847-f9b9-44d1-befc-5f2de6dae273")
 		)
 		(pin "8"
-			(uuid "e187804a-be1e-4e99-b48b-5ce6ef4e3a82")
+			(uuid "e187804a-be1e-4e99-b48b-5ce6ef4e3a87")
 		)
 		(pin "14"
-			(uuid "743250ba-9b86-4cda-a601-0b25ff7a5bbf")
+			(uuid "743250ba-9b86-4cda-a601-0b25ff7a5bc4")
 		)
 		(pin "1"
 			(uuid "a141f5d2-30d1-4c1c-a52f-4e2347784a25")
 		)
 		(pin "11"
-			(uuid "db438f2a-e942-4078-8286-ef9e969bbd63")
+			(uuid "db438f2a-e942-4078-8286-ef9e969bbd68")
 		)
 		(pin "5"
-			(uuid "8f023c01-c39d-46c2-9b1e-89a9c451a80a")
+			(uuid "8f023c01-c39d-46c2-9b1e-89a9c451a80f")
 		)
 		(pin "10"
-			(uuid "b58d1d59-5e8a-4731-8bf4-09f40fa428d1")
+			(uuid "b58d1d59-5e8a-4731-8bf4-09f40fa428d6")
 		)
 		(pin "13"
-			(uuid "1bfa02b6-8e18-4927-bcd7-b65bbf3bf1d1")
+			(uuid "1bfa02b6-8e18-4927-bcd7-b65bbf3bf1d6")
 		)
 		(pin "6"
-			(uuid "d613714b-8187-4573-ae79-40613862c02f")
+			(uuid "d613714b-8187-4573-ae79-40613862c034")
 		)
 		(pin "12"
-			(uuid "b307f07f-97a7-4e74-8cb2-881ace0bf0a1")
+			(uuid "b307f07f-97a7-4e74-8cb2-881ace0bf0a6")
 		)
 		(pin "7"
-			(uuid "3f05d4b6-4b6c-40e8-b8fa-63ef2b764e0b")
+			(uuid "3f05d4b6-4b6c-40e8-b8fa-63ef2b764e10")
 		)
 		(instances
 			(project "SEVILLA_PA1-1"
@@ -6403,7 +6636,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 113.03 140.97 0)
 			(effects
 				(font
@@ -6431,46 +6664,46 @@
 			)
 		)
 		(pin "4"
-			(uuid "534a809a-9490-4a1f-a3fc-a80cd0760b17")
+			(uuid "534a809a-9490-4a1f-a3fc-a80cd0760b1d")
 		)
 		(pin "2"
 			(uuid "3f961928-1a11-4a63-aed1-c9340891de07")
 		)
 		(pin "3"
-			(uuid "6d39b54d-84ef-4767-8fb3-ee32fa44219f")
+			(uuid "6d39b54d-84ef-4767-8fb3-ee32fa4421a5")
 		)
 		(pin "9"
-			(uuid "6e7ef847-f9b9-44d1-befc-5f2de6dae26e")
+			(uuid "6e7ef847-f9b9-44d1-befc-5f2de6dae274")
 		)
 		(pin "8"
-			(uuid "e187804a-be1e-4e99-b48b-5ce6ef4e3a82")
+			(uuid "e187804a-be1e-4e99-b48b-5ce6ef4e3a88")
 		)
 		(pin "14"
-			(uuid "743250ba-9b86-4cda-a601-0b25ff7a5bbf")
+			(uuid "743250ba-9b86-4cda-a601-0b25ff7a5bc5")
 		)
 		(pin "1"
 			(uuid "2c0a2144-bae8-4969-a756-6517f0272bc7")
 		)
 		(pin "11"
-			(uuid "db438f2a-e942-4078-8286-ef9e969bbd63")
+			(uuid "db438f2a-e942-4078-8286-ef9e969bbd69")
 		)
 		(pin "5"
-			(uuid "8f023c01-c39d-46c2-9b1e-89a9c451a80a")
+			(uuid "8f023c01-c39d-46c2-9b1e-89a9c451a810")
 		)
 		(pin "10"
-			(uuid "b58d1d59-5e8a-4731-8bf4-09f40fa428d1")
+			(uuid "b58d1d59-5e8a-4731-8bf4-09f40fa428d7")
 		)
 		(pin "13"
-			(uuid "1bfa02b6-8e18-4927-bcd7-b65bbf3bf1d1")
+			(uuid "1bfa02b6-8e18-4927-bcd7-b65bbf3bf1d7")
 		)
 		(pin "6"
-			(uuid "d613714b-8187-4573-ae79-40613862c02f")
+			(uuid "d613714b-8187-4573-ae79-40613862c035")
 		)
 		(pin "12"
-			(uuid "b307f07f-97a7-4e74-8cb2-881ace0bf0a1")
+			(uuid "b307f07f-97a7-4e74-8cb2-881ace0bf0a7")
 		)
 		(pin "7"
-			(uuid "3f05d4b6-4b6c-40e8-b8fa-63ef2b764e0b")
+			(uuid "3f05d4b6-4b6c-40e8-b8fa-63ef2b764e11")
 		)
 		(instances
 			(project "SEVILLA_PA1-1"
