@@ -9,6 +9,7 @@
 		(date "2025-06-24")
 		(rev "1.0")
 		(company "Chrys Sean T. Sevilla")
+		(comment 1 "CpE 2303L-S25-002")
 	)
 	(lib_symbols
 		(symbol "74xx:74LS04"
