@@ -5968,7 +5968,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "CpE 2303L-2024-2025 Rev 1.0"
+	(gr_text "CpE 2303L-2024-004 Rev 1.0"
 		(at 161.25 128.75 0)
 		(layer "B.SilkS")
 		(uuid "8f8d542f-8f52-415b-a845-5b29b3784977")
