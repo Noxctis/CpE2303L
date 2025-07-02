@@ -1282,23 +1282,27 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole"
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 1.016)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
 			(property "Reference" "H"
-				(at 0 5.08 0)
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1323,7 +1327,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Mounting Hole without connection"
+			(property "Description" "Mounting Hole with connection"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1341,7 +1345,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "MountingHole*"
+			(property "ki_fp_filters" "MountingHole*Pad*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1350,9 +1354,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "MountingHole_0_1"
+			(symbol "MountingHole_Pad_0_1"
 				(circle
-					(center 0 0)
+					(center 0 1.27)
 					(radius 1.27)
 					(stroke
 						(width 1.27)
@@ -1360,6 +1364,26 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -2868,70 +2892,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 208.28 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1245be2b-fe90-418b-a48d-9fb2eeac2190")
-		(property "Reference" "H2"
-			(at 210.82 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 210.82 49.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
-			(at 208.28 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 208.28 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 208.28 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/65723761-f233-4867-895e-4aaa941e8e78"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Display_Character:HDSP-7401")
 		(at 194.31 100.33 0)
 		(unit 1)
@@ -3094,6 +3054,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 93.98 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "373a7644-d982-44ad-96f0-43e8870844c7")
+		(property "Reference" "H2"
+			(at 96.52 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 96.52 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
+			(at 93.98 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 93.98 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64e51bd0-173e-4df3-a6fe-896fea3a58a5")
+		)
+		(instances
+			(project "SEVILLA_PA1-3"
+				(path "/65723761-f233-4867-895e-4aaa941e8e78"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 151.13 128.27 0)
 		(unit 1)
@@ -3226,17 +3253,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 76.2 156.21 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 71.12 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "832b06e0-1975-4645-9103-693fbcab81be")
-		(property "Reference" "H3"
-			(at 78.74 154.9399 0)
+		(uuid "8297f1e2-d178-4142-8659-d318a21a8361")
+		(property "Reference" "H1"
+			(at 73.66 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3244,8 +3271,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 78.74 157.4799 0)
+		(property "Value" "MountingHole_Pad"
+			(at 73.66 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3254,7 +3281,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
-			(at 76.2 156.21 0)
+			(at 71.12 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3263,7 +3290,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 156.21 0)
+			(at 71.12 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3271,19 +3298,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 76.2 156.21 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 71.12 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "bee54528-13a5-41fd-8072-6b0ab4d93106")
 		)
 		(instances
-			(project "SEVILLA_PA1-3"
+			(project ""
 				(path "/65723761-f233-4867-895e-4aaa941e8e78"
-					(reference "H3")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -3835,17 +3865,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 207.01 148.59 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 115.57 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a948fb04-13db-4268-9c7f-de586b025ff5")
-		(property "Reference" "H4"
-			(at 209.55 147.3199 0)
+		(uuid "b5a7fb56-7b0d-4bc1-ad06-6304a22d0e81")
+		(property "Reference" "H3"
+			(at 118.11 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3853,8 +3883,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 209.55 149.8599 0)
+		(property "Value" "MountingHole_Pad"
+			(at 118.11 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3863,7 +3893,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
-			(at 207.01 148.59 0)
+			(at 115.57 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3872,7 +3902,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 207.01 148.59 0)
+			(at 115.57 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3880,19 +3910,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 207.01 148.59 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 115.57 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "76ea5fce-f23b-4d48-af49-ec15661c27ed")
 		)
 		(instances
 			(project "SEVILLA_PA1-3"
 				(path "/65723761-f233-4867-895e-4aaa941e8e78"
-					(reference "H4")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -4025,6 +4058,73 @@
 			(project ""
 				(path "/65723761-f233-4867-895e-4aaa941e8e78"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 129.54 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d060dfd8-7e9e-4ee0-a408-bf60956c9d8c")
+		(property "Reference" "H4"
+			(at 132.08 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 132.08 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
+			(at 129.54 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 129.54 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f852dff2-4974-41cd-8b5a-b1bf76538b58")
+		)
+		(instances
+			(project "SEVILLA_PA1-3"
+				(path "/65723761-f233-4867-895e-4aaa941e8e78"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -4233,70 +4333,6 @@
 			(project ""
 				(path "/65723761-f233-4867-895e-4aaa941e8e78"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 76.2 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fe9c0b49-ee88-4c17-a4d5-e5cb956dd814")
-		(property "Reference" "H1"
-			(at 78.74 45.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 78.74 48.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
-			(at 76.2 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 76.2 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/65723761-f233-4867-895e-4aaa941e8e78"
-					(reference "H1")
 					(unit 1)
 				)
 			)

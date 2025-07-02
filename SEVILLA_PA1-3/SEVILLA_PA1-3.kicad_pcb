@@ -105,118 +105,20 @@
 	(net 18 "unconnected-(U3-DP-Pad7)")
 	(net 19 "Net-(SW3-A)")
 	(net 20 "Net-(SW4-B)")
+	(net 21 "unconnected-(H1-Pad1)")
+	(net 22 "unconnected-(H2-Pad1)")
+	(net 23 "unconnected-(H3-Pad1)")
+	(net 24 "unconnected-(H4-Pad1)")
 	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
 		(layer "F.Cu")
-		(uuid "012ef087-1755-4588-8392-9f2fb19e8886")
-		(at 191.5 114)
-		(descr "Mounting Hole 3.2mm, M3, ISO7380")
-		(tags "mounting hole 3.2mm m3 iso7380")
-		(property "Reference" "H4"
-			(at 0 -3.85 0)
-			(layer "F.SilkS")
-			(uuid "9019e770-9cd5-4dfc-aeed-4a3e2b24f3b0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 0 3.85 0)
-			(layer "F.Fab")
-			(uuid "9c2b76e0-af31-421c-b59c-67c472a20a97")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "345ada76-5616-42bd-87f3-4243889e2482")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "de865d82-efac-41ee-b4eb-35054381457b")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "MountingHole*")
-		(path "/a948fb04-13db-4268-9c7f-de586b025ff5")
-		(sheetname "/")
-		(sheetfile "SEVILLA_PA1-3.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 2.85 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill no)
-			(layer "Cmts.User")
-			(uuid "627f2469-1462-4e23-9266-71a9a8fcc79c")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 3.1 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "df53827d-fc0a-4a26-8aeb-c09212301d52")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "9b840725-314e-4aaa-bac6-d1225f7903ad")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 5.7 5.7)
-			(drill 3.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(uuid "4336be42-4f0e-4973-b848-6ed7058dcb64")
-		)
-		(embedded_fonts no)
-	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
-		(layer "F.Cu")
-		(uuid "16e01ab7-6d30-4ed9-8671-b42b234de82b")
+		(uuid "12a2e8ab-8b3a-4d9d-b37c-1e121095e95e")
 		(at 101.5 74)
 		(descr "Mounting Hole 3.2mm, M3, ISO7380")
 		(tags "mounting hole 3.2mm m3 iso7380")
 		(property "Reference" "H1"
 			(at 0 -3.85 0)
 			(layer "F.SilkS")
-			(uuid "a31661c2-dd4a-4e99-9511-094f0ca5a5d2")
+			(uuid "9173add7-595b-48e0-852b-812be46dce5a")
 			(effects
 				(font
 					(size 1 1)
@@ -224,10 +126,10 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "MountingHole_Pad"
 			(at 0 3.85 0)
 			(layer "F.Fab")
-			(uuid "44a15327-a254-4be7-a308-da511ce4b90a")
+			(uuid "483d0bfd-cc7a-4d9a-bcbe-d2144501e727")
 			(effects
 				(font
 					(size 1 1)
@@ -240,7 +142,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a423edc2-ced6-419e-853b-85631cbf5298")
+			(uuid "416c33a8-1575-43c4-8cbb-fc30a3bd2f15")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -248,12 +150,12 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" "Mounting Hole with connection"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c27621c4-2f89-41d8-b1e1-38b34c5510bc")
+			(uuid "c2b30081-a55b-4469-a348-44d03c78ed52")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -261,8 +163,8 @@
 				)
 			)
 		)
-		(property ki_fp_filters "MountingHole*")
-		(path "/fe9c0b49-ee88-4c17-a4d5-e5cb956dd814")
+		(property ki_fp_filters "MountingHole*Pad*")
+		(path "/8297f1e2-d178-4142-8659-d318a21a8361")
 		(sheetname "/")
 		(sheetfile "SEVILLA_PA1-3.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
@@ -275,7 +177,7 @@
 			)
 			(fill no)
 			(layer "Cmts.User")
-			(uuid "a214e73a-f6d0-4832-b7b5-a8028f8272cf")
+			(uuid "f608d7fa-5942-4b82-983a-9a7c44169818")
 		)
 		(fp_circle
 			(center 0 0)
@@ -286,12 +188,12 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "219664c8-ca28-416b-a94f-d43910829c46")
+			(uuid "445c5409-9df9-46d5-9e3a-0231cebd3214")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "0449ce29-61c8-44cb-8b49-098aa04b40dc")
+			(uuid "c93e6046-7147-4c7a-970b-83483dce1480")
 			(effects
 				(font
 					(size 1 1)
@@ -305,7 +207,115 @@
 			(drill 3.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "3b5dd279-2ba9-43f0-93ac-84642ca49a85")
+			(net 21 "unconnected-(H1-Pad1)")
+			(pinfunction "1")
+			(pintype "input")
+			(uuid "404dd07f-c346-41b4-8710-3b4c74bfb3ee")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
+		(layer "F.Cu")
+		(uuid "1b46a841-7dd9-41be-99c2-820f956b442a")
+		(at 101.5 114)
+		(descr "Mounting Hole 3.2mm, M3, ISO7380")
+		(tags "mounting hole 3.2mm m3 iso7380")
+		(property "Reference" "H3"
+			(at 0 -3.85 0)
+			(layer "F.SilkS")
+			(uuid "28f6511d-84b0-41c3-b1fa-4bd98a6e5f7c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 0 3.85 0)
+			(layer "F.Fab")
+			(uuid "cf50115e-52f7-4d77-ac03-9c3025360494")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ab57f24-43ea-466f-9236-5f56d732a969")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "189d7a01-bf8a-4f1b-9d23-847d69bbda4a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*Pad*")
+		(path "/b5a7fb56-7b0d-4bc1-ad06-6304a22d0e81")
+		(sheetname "/")
+		(sheetfile "SEVILLA_PA1-3.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.85 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "ec3d0469-ce71-4a53-815a-0b0f3c693234")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "bac28639-c3e9-4380-98ee-570868aaa829")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "35299564-9ec2-4d04-9d31-2225a4e2ff46")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 5.7 5.7)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 23 "unconnected-(H3-Pad1)")
+			(pinfunction "1")
+			(pintype "input")
+			(uuid "3745ab63-1002-4e6b-8e61-d5907b06b8eb")
 		)
 		(embedded_fonts no)
 	)
@@ -1115,108 +1125,6 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
-		(layer "F.Cu")
-		(uuid "3c78182c-a80c-4b1c-9130-dfa0cc341adf")
-		(at 191.5 74)
-		(descr "Mounting Hole 3.2mm, M3, ISO7380")
-		(tags "mounting hole 3.2mm m3 iso7380")
-		(property "Reference" "H2"
-			(at 0 -3.85 0)
-			(layer "F.SilkS")
-			(uuid "7bb0f103-00de-4c95-8f3d-074f240454eb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 0 3.85 0)
-			(layer "F.Fab")
-			(uuid "58cd86a8-2f2e-4a78-8fcf-adab0615c415")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2fcaacf8-8734-4908-9413-519a1baaa734")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0105b2e9-d92e-433f-ac18-95b17465b1a7")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "MountingHole*")
-		(path "/1245be2b-fe90-418b-a48d-9fb2eeac2190")
-		(sheetname "/")
-		(sheetfile "SEVILLA_PA1-3.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 2.85 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill no)
-			(layer "Cmts.User")
-			(uuid "a4edec58-4c75-4c91-a687-d4e78621c591")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 3.1 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "5bb114cb-ddd3-4ccc-b6ba-a61f72d1fde4")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "ee8a6e4c-b166-45cc-85bc-4be4f5ea505d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 5.7 5.7)
-			(drill 3.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(uuid "7fae1731-5fce-43ce-8278-6c83c88d7875")
-		)
-		(embedded_fonts no)
-	)
 	(footprint "Button_Switch_THT:SW_PUSH_6mm"
 		(layer "F.Cu")
 		(uuid "5029245a-a52a-46a7-b951-8d3489b43f4e")
@@ -1563,6 +1471,216 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
+		(layer "F.Cu")
+		(uuid "6d602974-70c1-4054-85e5-1c099ddc80ac")
+		(at 191.5 74)
+		(descr "Mounting Hole 3.2mm, M3, ISO7380")
+		(tags "mounting hole 3.2mm m3 iso7380")
+		(property "Reference" "H2"
+			(at 0 -3.85 0)
+			(layer "F.SilkS")
+			(uuid "e465f705-40b0-486f-98ea-e68761a4382d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 0 3.85 0)
+			(layer "F.Fab")
+			(uuid "32affe81-d1b8-4a02-9bcd-115c9a110c8a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bca2f7de-73fa-444e-96f9-82d5211b5628")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f49c23b5-8386-4224-8256-6726889f5b1c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*Pad*")
+		(path "/373a7644-d982-44ad-96f0-43e8870844c7")
+		(sheetname "/")
+		(sheetfile "SEVILLA_PA1-3.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.85 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "8dfe7cb3-64c6-4db8-b02d-d145ae85a332")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "9da0b5c9-6eec-4e91-9bda-8f4eadd16c6d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "4a815fd1-4edb-46d7-bf7b-a0f888bec481")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 5.7 5.7)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 22 "unconnected-(H2-Pad1)")
+			(pinfunction "1")
+			(pintype "input")
+			(uuid "7907257e-26ca-4bc1-a198-62f7061bab1b")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
+		(layer "F.Cu")
+		(uuid "7371869d-e48e-4836-959b-1287a554d88b")
+		(at 191.5 114)
+		(descr "Mounting Hole 3.2mm, M3, ISO7380")
+		(tags "mounting hole 3.2mm m3 iso7380")
+		(property "Reference" "H4"
+			(at 0 -3.85 0)
+			(layer "F.SilkS")
+			(uuid "69822e3a-d290-40f7-b123-13f9500c15cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 0 3.85 0)
+			(layer "F.Fab")
+			(uuid "a53a7458-59b5-4a6e-909e-5a334589a01e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fc465e3b-c308-451d-9f4d-03c2250da7c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6642a40e-9653-4c87-aa85-6f907f20eddd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*Pad*")
+		(path "/d060dfd8-7e9e-4ee0-a408-bf60956c9d8c")
+		(sheetname "/")
+		(sheetfile "SEVILLA_PA1-3.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.85 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "650f1ea0-b480-4372-be89-4e7106b24083")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "a5ef6bb2-b98b-4b3a-84fc-e68efd36fcce")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "b79f06ab-7f57-42f2-b65a-8ed0d37bf3f6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 5.7 5.7)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 24 "unconnected-(H4-Pad1)")
+			(pinfunction "1")
+			(pintype "input")
+			(uuid "221df439-c632-4164-999a-2899162612f5")
+		)
+		(embedded_fonts no)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 		(layer "F.Cu")
@@ -2699,108 +2817,6 @@
 				(xyz 0 0 0)
 			)
 		)
-	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
-		(layer "F.Cu")
-		(uuid "c6851cfe-4a7c-4ffc-a342-e74e039311d8")
-		(at 101.5 114)
-		(descr "Mounting Hole 3.2mm, M3, ISO7380")
-		(tags "mounting hole 3.2mm m3 iso7380")
-		(property "Reference" "H3"
-			(at 0 -3.85 0)
-			(layer "F.SilkS")
-			(uuid "fcb93161-511d-478e-a79b-06de88644b17")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 0 3.85 0)
-			(layer "F.Fab")
-			(uuid "ea8c52cb-4301-455a-b30f-cbfaa7112554")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "37b366c2-bfd6-40d0-90ad-151181513831")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "44a24f01-dc6c-4fd7-825f-b0b3b2189f5f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "MountingHole*")
-		(path "/832b06e0-1975-4645-9103-693fbcab81be")
-		(sheetname "/")
-		(sheetfile "SEVILLA_PA1-3.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 2.85 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill no)
-			(layer "Cmts.User")
-			(uuid "803b2263-c05c-4e65-a60c-a8eaf83de84f")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 3.1 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "52f69be0-6fab-4f51-b28f-3891fdb0e241")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "94149816-1df8-460f-95ad-e9a8c030daa1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 5.7 5.7)
-			(drill 3.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(uuid "644c07b4-198a-493d-9961-66efee5dfaa6")
-		)
-		(embedded_fonts no)
 	)
 	(footprint "Display_7Segment:HDSP-7401"
 		(layer "F.Cu")
@@ -5347,7 +5363,7 @@
 		(net 1)
 		(net_name "GND")
 		(layer "B.Cu")
-		(uuid "17c0cec0-5228-46b0-a51c-4fe2e1c2ce36")
+		(uuid "50142017-1120-484d-bbf0-a8892e179bec")
 		(hatch edge 0.5)
 		(connect_pads
 			(clearance 0.254)
@@ -5360,7 +5376,7 @@
 		)
 		(polygon
 			(pts
-				(xy 96.5 69) (xy 196.75 69) (xy 196.5 118.75) (xy 196.5 119) (xy 96.5 119)
+				(xy 196.5 69) (xy 96.5 69) (xy 96.5 119) (xy 196.5 119)
 			)
 		)
 		(filled_polygon
