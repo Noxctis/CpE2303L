@@ -5,7 +5,7 @@
 	(uuid "3e4a96c0-5795-441e-a204-4f369afa2d73")
 	(paper "USLetter")
 	(title_block
-		(title "Practical Activity #3")
+		(title "Practical Activity #3 Activity #1")
 		(date "2025-07-01")
 		(rev "1.0")
 		(company "Chrys Sean T. Sevilla")
@@ -1374,6 +1374,12 @@
 		(uuid "358309a8-5578-4b2a-9252-78f22447232b")
 	)
 	(junction
+		(at 83.82 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c4c7592-1093-4be3-be9d-e7283e9a78fe")
+	)
+	(junction
 		(at 133.35 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1396,6 +1402,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "808aaf35-0bf1-42b5-97bb-8fefbb3045a4")
+	)
+	(junction
+		(at 90.17 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80b63924-5344-49dc-b95b-e7fdef33aab3")
 	)
 	(junction
 		(at 175.26 96.52)
@@ -1490,6 +1502,16 @@
 			(type default)
 		)
 		(uuid "3f19f5f0-05aa-449d-8e93-26475a7cc1b0")
+	)
+	(wire
+		(pts
+			(xy 83.82 90.17) (xy 83.82 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43e85346-4492-49df-b015-3fe96deca7cf")
 	)
 	(wire
 		(pts
@@ -1760,6 +1782,16 @@
 			(type default)
 		)
 		(uuid "df8c36c1-6dec-4305-affe-a6b15bf9ef6f")
+	)
+	(wire
+		(pts
+			(xy 83.82 105.41) (xy 90.17 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e771bd0b-0ca3-49a5-a3c4-980251c7d849")
 	)
 	(wire
 		(pts
