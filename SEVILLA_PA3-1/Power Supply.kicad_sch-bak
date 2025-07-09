@@ -1843,26 +1843,6 @@
 		)
 		(uuid "fa38d552-cf72-46ea-8b16-bb83417bf653")
 	)
-	(label "LED"
-		(at 158.75 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "65145035-38f0-4931-94e6-934bb570d855")
-	)
-	(label "7809 Output"
-		(at 113.03 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "76e245a3-ffdc-458a-ada2-f23363bb936f")
-	)
 	(hierarchical_label "11.1V"
 		(shape input)
 		(at 91.44 78.74 0)

@@ -51,7 +51,13 @@
           "min_clearance": 0.254
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -130,7 +136,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 1.27,
+        "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -180,7 +186,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +215,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -457,7 +470,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.254,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -468,10 +481,50 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.254,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.254,
+        "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.016
+      },
+      {
+        "clearance": 0.254,
+        "name": "MotorAB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.254
+      },
+      {
+        "clearance": 0.254,
+        "name": "MotorSignal",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.254
+      },
+      {
+        "clearance": 0.254,
+        "name": "POWER",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.016
+      },
+      {
+        "clearance": 0.254,
+        "name": "Voltage Regulator",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.762
       }
     ],
     "meta": {
@@ -479,7 +532,88 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "POWER",
+        "pattern": "/Motor Driver/11.1V"
+      },
+      {
+        "netclass": "Voltage Regulator",
+        "pattern": "/Power Supply/7809 Output"
+      },
+      {
+        "netclass": "Voltage Regulator",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "MotorSignal",
+        "pattern": "/Motor Driver/PWM2"
+      },
+      {
+        "netclass": "MotorSignal",
+        "pattern": "/Motor Driver/FDIRECTION2"
+      },
+      {
+        "netclass": "MotorSignal",
+        "pattern": "/Motor Driver/BDIRECTION2"
+      },
+      {
+        "netclass": "MotorSignal",
+        "pattern": "/Motor Driver/PWM1"
+      },
+      {
+        "netclass": "MotorSignal",
+        "pattern": "/Motor Driver/BDIRECTION1"
+      },
+      {
+        "netclass": "MotorSignal",
+        "pattern": "/Motor Driver/FDIRECTION1"
+      },
+      {
+        "netclass": "MotorAB",
+        "pattern": "/Motor Driver/MOTOR1B"
+      },
+      {
+        "netclass": "MotorAB",
+        "pattern": "/Motor Driver/MOTOR1A"
+      },
+      {
+        "netclass": "MotorAB",
+        "pattern": "/Motor Driver/MOTOR2B"
+      },
+      {
+        "netclass": "MotorAB",
+        "pattern": "/Motor Driver/MOTOR2A"
+      },
+      {
+        "netclass": "MotorAB",
+        "pattern": "/Motor Driver/MOTOR3B"
+      },
+      {
+        "netclass": "MotorAB",
+        "pattern": "/Motor Driver/MOTOR3A"
+      },
+      {
+        "netclass": "MotorSignal",
+        "pattern": "/Motor Driver/BDIRECTION3"
+      },
+      {
+        "netclass": "MotorSignal",
+        "pattern": "/Motor Driver/FDIRECTION3"
+      },
+      {
+        "netclass": "MotorSignal",
+        "pattern": "/Motor Driver/PWM3"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Power Supply/LED"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {

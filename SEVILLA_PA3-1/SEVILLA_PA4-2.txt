@@ -1,0 +1,32 @@
+Circuit: PIC16F84A + HDSP-7401 7-Segment Display
+
+>> Microcontroller (U2: PIC16F84A)
+VDD (pin 14): +5V power input (DC), expected current: ~5-10 mA for MCU logic
+VSS (pin 5): Ground
+RA0–RA3 (pins 17–18): Not connected in schematic
+RB0–RB7 (pins 6–13): Digital output signals to 7-segment displays, each line can sink/source ~10 mA depending on segment current
+
+>> 7-Segment Displays (U1 & U3: HDSP-7401, Common Anode)
+Pins A–G, DP (1–7, 9): Segment cathodes connected to PIC I/O lines (RBx), signal type: Digital Output
+Expected current per segment: ~10 mA (DC) sink per active segment
+Pin 10: Common Anode (CA), connected to +5V (constant high), provides current to all segments
+Total display current (worst case): ~70 mA per display (all segments on)
+
+>> Clock Circuit
+Y1: 4 MHz Crystal Oscillator
+C1, C2: 20 pF capacitors to ground (analog AC signals, near zero DC current)
+OSC1/OSC2 (pins 15, 16): Oscillator input/output, signal type: Analog AC, ~5Vpp
+
+>> MCLR Reset Circuit
+Pin 4 (MCLR): Connected to +5V via 100Ω resistor (R1), digital high (weak pull-up), ~50 µA typical
+
+>> Switches (SW3, SW4)
+Connected between MCLR and GND, momentary input
+Signal type: Digital logic (low when pressed), no continuous current (only pulldown)
+
+>> Power and Ground
+J1: 2-pin connector to +5V and GND input
+PWR_FLAG: Logical marker in KiCad for power net
+
+>> LED Indicator (Not shown in this schematic but common)
+R2: 100Ω resistor connected to power net for indication (optional), assumed LED + R2 draws ~10–15 mA if present
