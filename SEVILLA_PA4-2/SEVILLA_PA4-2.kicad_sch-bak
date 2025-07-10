@@ -2112,24 +2112,8 @@
 		(uuid "8abc39f9-6e23-4258-b4dd-b1e3c3dda562")
 	)
 	(no_connect
-		(at 129.54 43.18)
-		(uuid "9977c1b0-220d-4c74-941b-ea82376a58cd")
-	)
-	(no_connect
-		(at 93.98 43.18)
-		(uuid "9b1671eb-e995-4b5d-aa52-ab1ed5dbe85d")
-	)
-	(no_connect
 		(at 186.69 76.2)
 		(uuid "c8e96ca6-3ba6-4762-9bf9-eef6acb46fec")
-	)
-	(no_connect
-		(at 115.57 43.18)
-		(uuid "d64f304e-b2cd-4983-951e-8ebeca6645e9")
-	)
-	(no_connect
-		(at 71.12 43.18)
-		(uuid "eaee321a-5e90-46e9-bea1-01c67e267e16")
 	)
 	(no_connect
 		(at 168.91 116.84)
@@ -3691,7 +3675,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 111.76 69.85 0)
 			(effects
 				(font
