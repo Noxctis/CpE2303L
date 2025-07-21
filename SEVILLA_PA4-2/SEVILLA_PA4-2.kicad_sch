@@ -2074,6 +2074,12 @@
 		(uuid "8b3ba02b-98eb-40de-90cd-a6833770accc")
 	)
 	(junction
+		(at 93.98 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b508e833-f7f4-4c88-a640-a2ec73a9b1e4")
+	)
+	(junction
 		(at 151.13 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2090,6 +2096,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cbdcfdb1-8bbf-4ba9-afa5-f491051bd5be")
+	)
+	(junction
+		(at 115.57 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4b74ba5-d697-46dc-be18-29d3e8c22678")
 	)
 	(junction
 		(at 176.53 105.41)
@@ -2112,24 +2124,8 @@
 		(uuid "8abc39f9-6e23-4258-b4dd-b1e3c3dda562")
 	)
 	(no_connect
-		(at 129.54 43.18)
-		(uuid "9977c1b0-220d-4c74-941b-ea82376a58cd")
-	)
-	(no_connect
-		(at 93.98 43.18)
-		(uuid "9b1671eb-e995-4b5d-aa52-ab1ed5dbe85d")
-	)
-	(no_connect
 		(at 186.69 76.2)
 		(uuid "c8e96ca6-3ba6-4762-9bf9-eef6acb46fec")
-	)
-	(no_connect
-		(at 115.57 43.18)
-		(uuid "d64f304e-b2cd-4983-951e-8ebeca6645e9")
-	)
-	(no_connect
-		(at 71.12 43.18)
-		(uuid "eaee321a-5e90-46e9-bea1-01c67e267e16")
 	)
 	(no_connect
 		(at 168.91 116.84)
@@ -2411,6 +2407,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 43.18) (xy 93.98 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aca2057-d40e-4ec5-a56c-8162536d5d3a")
+	)
+	(wire
+		(pts
 			(xy 168.91 109.22) (xy 177.8 109.22)
 		)
 		(stroke
@@ -2478,6 +2484,16 @@
 			(type default)
 		)
 		(uuid "5aa25526-37bc-4c91-a050-7e46f2b8ce82")
+	)
+	(wire
+		(pts
+			(xy 115.57 43.18) (xy 129.54 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62f4ac8d-409f-4551-bdcc-3917cfae5df8")
 	)
 	(wire
 		(pts
@@ -2551,6 +2567,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 43.18) (xy 93.98 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "723c0aa9-831e-450f-8316-5145ecbefb34")
+	)
+	(wire
+		(pts
 			(xy 177.8 102.87) (xy 186.69 102.87)
 		)
 		(stroke
@@ -2558,6 +2584,16 @@
 			(type default)
 		)
 		(uuid "78cd46e1-c98a-40cf-bf7f-bb68486f83ce")
+	)
+	(wire
+		(pts
+			(xy 93.98 43.18) (xy 115.57 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79b8e372-581c-4a53-964d-e511861800c6")
 	)
 	(wire
 		(pts
@@ -2638,6 +2674,16 @@
 			(type default)
 		)
 		(uuid "a0083d9b-783e-407c-9a27-225fc5eb3942")
+	)
+	(wire
+		(pts
+			(xy 93.98 46.99) (xy 102.87 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a062dc39-6139-4271-a17a-40584106b9b3")
 	)
 	(wire
 		(pts
@@ -3293,6 +3339,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
@@ -3896,6 +3943,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 102.87 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97601085-378c-4405-8b30-84dbe52c2fed")
+		(property "Reference" "#PWR08"
+			(at 102.87 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 102.87 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3faa34cd-d0be-40da-82d6-1d2a9c7af894")
+		)
+		(instances
+			(project ""
+				(path "/65723761-f233-4867-895e-4aaa941e8e78"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 143.51 72.39 0)
 		(unit 1)
@@ -4238,6 +4351,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
@@ -4437,6 +4551,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
