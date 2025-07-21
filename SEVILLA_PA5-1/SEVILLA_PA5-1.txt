@@ -1,0 +1,44 @@
+=== SIGNAL AND CURRENT ANALYSIS ===
+
+>> MOTOR DRIVER CIRCUIT (U1 & U2: L293D)
+Inputs: PWMx, DIRECTIONx (Digital, <1 mA)
+Outputs: MOTORxA/B (0.6–1.2 A)
+
+>> POWER REGULATION CIRCUIT
+Input: 11.1V
+U3: LM7809 (9V out), U4: LM7805 (5V out)
+Max current: 1.5A per regulator
+LED: 17 mA with 180Ω resistor
+
+=== RECOMMENDED CONDUCTOR WIDTHS BASED ON TABLE 1 (1 oz Cu) ===
+
+Conductor                           | Current (A) | Minimum Width (in)
+-----------------------------------------------------------------
+PWM1, PWM2, PWM3                    | 0.10 A | 0.01 in
+DIRECTIONx (INx pins)               | 0.10 A | 0.01 in
+
+Based on Datasheet 100uA Maximum. I'll just use the standard 0.254 mm or 0.01 inches
+
+L293D Datasheet says each channel continuous of 0.600 A but also inrush of 1.2A?
+L293D OUTPUT
+MOTOR1A/B                	    | 0.600 A | 0.01 in
+MOTOR2A/B                	    | 0.600 A | 0.01 in
+MOTOR3A/B                           | 0.600 A | 0.01 in
+
+
+POWER
+11.1V                               | 1.200 A/1.800 A should both L293D VCC Share Trace? | 0.03 in
+L293D                               | 1.200 A | 0.03 in
+L293D                               | 0.600 A | 0.03 in
+L7908/7805                          | 1.000 A | 0.03 in
+
+GND to GND pins of L293D            | 1.800 A | 0.03 in
+
+
+9V rail (U3 output)                 | 1.500 A | 0.03 in
+5V rail (U4 output)                 | 1.500 A | 0.03 in
+
+GND rail (shared)                   | 1.500 A | 0.03 in
+
+LED trace                           | 0.017 A | 0.01 in
+Signal traces (caps)                | 0.001 A | 0.01 in
